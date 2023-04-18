@@ -1,5 +1,11 @@
-.cabeçalho{
+header{
     background-color: black;
-    position: center;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 200%;
+}
+header.img{
+    height: 450px;
+    width: 100%;
 }
