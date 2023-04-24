@@ -1,0 +1,76 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <style>
+            body{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: #929AAB;
+            }
+            #principal{
+                width: 40%;
+                height: 300px;
+                background-color: #393E46;
+                margin: 0 auto;
+                margin-top: 120px;
+                border-radius: 15px;
+                min-width: 600px;
+                max-width: 600px;
+                text-align: center;
+            }
+            #principal img{
+                width: 120px;
+                margin-top: -60px;
+                margin-bottom: 30px;
+            }
+            input{
+                width: 80%;
+                height: 40px;
+                font-size: 18px;
+                margin-bottom: 10px;
+                background-color: #fff;
+                padding-left: 40px;
+                border: none;
+            }
+            input.email{
+                background-image: url(icone-usuario.png);
+                background-repeat: no-repeat;
+                background-position: 10px;
+            }
+            input.senha{
+                background-image: url(icone-cadeado.png);
+                background-repeat: no-repeat;
+                background-position: 10px;
+            }
+            input.submit{
+                color:#fff;
+                background-color: #606470;
+                border: 2px solid #606470;
+                padding: 5px 20px;
+                height: 45px;
+                width: 90%;
+                background: linear-gradient(to bottom, #f5bb47);
+            }
+        </style>
+    </head>
+    <body class="body">
+        <div id="principal">
+            <img src="perfil.png">
+            <form method="post" action="#">
+                <div>
+                    <input class="email" type="text" name="email" id="emial" placeholder="Digite seu E-mail" required>
+                </div>
+                <div>
+                    <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                </div>
+                <div>
+                    <input class="submit" type="submit" volume="Logar">
+                </div>
+            </form>
+        </div>
+        <a href='corrida02.html'><button>Formulario</button></a>
+    </body>
+    </html>
