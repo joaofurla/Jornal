@@ -29,3 +29,18 @@ main{
     color: white;
     text-align: center;
 }
+Img{
+    width: 400;
+    height: 200;
+}
+Img.a{
+    display: inline-block;
+}
+Img.p{
+    display: inline-block;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
