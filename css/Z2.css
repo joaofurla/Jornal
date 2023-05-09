@@ -2,15 +2,6 @@
     margin: 0;
     padding: 0;
     }
-    /*.conteudo{
-        background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            background-size: 100%;
-            */
     img {
     margin: 0px;
     }
@@ -171,4 +162,25 @@
         height: 330px;
         background-color: #383838;
         color: white;
+    }        .roda .dowm_up{
+        text-align: center;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+        font-size: 4em;
+    }
+    .roda .down_meio{
+        text-align: center;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .roda .down_down{
+        text-align: center;
+    }
+    .roda .down_down img{
+        width: 40px;
+        cursor: pointer;
+        margin: 20px;
+        padding: 5px;
     }
